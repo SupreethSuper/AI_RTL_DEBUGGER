@@ -43,4 +43,11 @@ module tb_buffer_params;
         $monitor("Time=%0t | input_a=%0d output_c=%0d", $time, input_a, output_c);
     end
 
+
+    initial begin
+        $dumpfile("tb_buffer.vcd");
+        $dumpvars(0, tb_buffer_params);
+    end
+
+
 endmodule
