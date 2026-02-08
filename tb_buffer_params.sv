@@ -18,7 +18,7 @@ module tb_buffer_params;
 
     initial begin
         error_count = 0; // initialize error count
-        run_count   = 100; // initialize run count
+        run_count   = 10000; // initialize run count
     end
 
     // Clock (not required for a pure buffer, but kept since you already had it)
@@ -84,9 +84,9 @@ module tb_buffer_params;
     end
 
     // Monitor
-    initial begin
-        $monitor("Time=%0t | input_a=%0d output_c=%0d", $time, input_a, output_c);
-    end
+    // initial begin
+    //     $monitor("Time=%0t | input_a=%0d output_c=%0d", $time, input_a, output_c);
+    // end
 
     // Dump waves
     initial begin
