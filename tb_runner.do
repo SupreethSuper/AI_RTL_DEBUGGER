@@ -1,5 +1,5 @@
 #clean any prev runs
-
+#run command -> vsim -do tb_runner.do
 quit -sim;
 
 #make a work library
