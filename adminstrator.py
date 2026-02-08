@@ -14,10 +14,10 @@ test_bench_runner_do_file_path = r"tb_runner.do"
 
 class Main:
     def __init__(self):
-        self.startup_flag = True
+        self.startup_flag = False
         self.startup_loop_counter = -1
         self.error_counts = get_final_error_count()
-        self.design_valid = False
+        self.design_valid = True
 
 
     def startup(self):
@@ -43,8 +43,9 @@ class Main:
     def error_state(self):
         os.system("echo There has been an error in the startup process. Restarting...")
         self.startup_loop_counter += 1
-        if(self.startup_loop_counter > 3):
-            os.system("echo Too many errors. Exiting.")
+        if(self.startup_loop_counter > 2):
+            os.system("cls")
+            os.system("echo Too many errors. Exiting. Contact the developer.")
             exit(1)
         time.sleep(2)
         self.startup()
