@@ -26,7 +26,7 @@ class Main:
         if not self.startup_flag:
             self.error_state()
         else:
-            os.system(f"vsim -do {test_bench_runner_do_file_path}")
+            os.system(f'''vsim -c -do "do {test_bench_runner_do_file_path}; quit -f''')
 
     def error_state(self):
         os.system("echo There has been an error in the startup process. Restarting...")

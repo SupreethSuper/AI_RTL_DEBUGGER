@@ -1,6 +1,6 @@
 #load trasnscript file path
 
-transcript_file_path = r"C:\Users\supre\OneDrive - Arizona State University\AI chip\buffer\code\AI_RTL_DEBUGGER\transcript"
+transcript_file_path = r"transcript"
 
 
 def read_transcript(path = transcript_file_path):

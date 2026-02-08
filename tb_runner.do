@@ -19,6 +19,7 @@ vsim work.tb_buffer_params;
 add wave -r *;
 
 run -all;
+onfinish exit; # to acknowledge finish
 
 
 
