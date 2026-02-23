@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/supre/OneDrive - Arizona State University/others - personal/AI chip/buffer/code/AI_RTL_DEBUGGER
+vinput_buffer
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1771838477
+!i10b 1
+!s100 hT8[>M2KlSfiCO^jk:inc0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkF^Z?ch>8>C5BF^nnZ9Wh0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1771836094
+8input_buffer.sv
+Finput_buffer.sv
+!i122 0
+L0 1 10
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1771838477.000000
+!s107 input_buffer.sv|
+!s90 -sv|input_buffer.sv|
+!i113 1
+o-sv
+Z7 tCvgOpt 0
+vtb_input_buffer
+R1
+R2
+!i10b 1
+!s100 1;GI58OAbgnX[G8hk]GzX0
+R3
+IaO?Z<?PC2>1EHJNhdngfD0
+R4
+S1
+R0
+w1771838467
+8tb_input_buffer.sv
+Ftb_input_buffer.sv
+!i122 1
+L0 3 36
+R5
+r1
+!s85 0
+31
+R6
+!s107 tb_input_buffer.sv|
+!s90 -sv|tb_input_buffer.sv|
+!i113 1
+o-sv
+R7
