@@ -20,3 +20,6 @@ venv/
 Thumbs.db
 #secrets
 .env
+
+#editable docs
+.docx
