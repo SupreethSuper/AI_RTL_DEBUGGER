@@ -1,0 +1,25 @@
+# ModelSim / Questa
+work/
+transcript
+vsim.wlf
+*.wlf
+*.log
+
+# Temporary / editor
+*.swp
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+#secrets
+.env
+
+#editable docs
+.docx
