@@ -11,9 +11,9 @@ vsim.wlf
 *.tmp
 
 # Python
-__pycache__/
-*.pyc
-venv/
+#__pycache__/
+#*.pyc
+#venv/
 
 # OS junk
 .DS_Store
