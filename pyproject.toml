@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-rtl-debugger"
+version = "1.1.0"
+description = "AI-assisted RTL debugging workflow (ModelSim transcript -> Gemini suggestions -> SV design write-back)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "SupreethSuper" }]
+license = { text = "MIT" }
+
+# What your code actually imports
+dependencies = [
+  "python-dotenv>=1.0.0",
+  "google-genai>=0.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/SupreethSuper/AI_RTL_DEBUGGER"
+Issues = "https://github.com/SupreethSuper/AI_RTL_DEBUGGER/issues"
+
+[tool.setuptools]
+# You currently have NO package directory, just top-level modules. :contentReference[oaicite:1]{index=1}
+py-modules = [
+  "AI_handler",
+  "adminstrator",
+  "design_writer",
+  "file_handlers",
+  "main",
+  "system_verilog_module_reader",
+  "transcript_reader",
+]
+
+[tool.setuptools.package-data]
+# If you later want to include .vh/.sv files inside the wheel, move them into a package and list them here.
