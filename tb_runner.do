@@ -7,8 +7,8 @@ vlib work;
 vmap work work;
 
 #compile all files
-vlog -sv buffer.sv;
-vlog -sv tb_buffer_params.sv;
+vlog -sv buffer;
+vlog -sv tb_buffer_params;
 
 #invoking testbench
 
